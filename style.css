@@ -1,0 +1,284 @@
+@font-face {
+    font-family: MyItalick;
+/*    src: url(font/bickhamscr2.ttf);*/
+    src: url(font/Ekaterina_Velikaya_Two.ttf);
+   }
+
+@font-face {
+    font-family: My;
+    src: url(font/DejaVuSans-ExtraLight.ttf);
+
+   }
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+color: white;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+
+/*HEADER*/
+/*
+header{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+nav{
+    text-align: center;
+}
+header ul li{
+    
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+header ul li a{
+  color: #79c4b3;
+    font-weight: 600;
+  
+}
+*/
+
+
+
+.title{
+    color: #79c4b3;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-family: My;
+    
+}
+
+/*SECTION 1*/
+#section_1{
+    background-image: url(img/6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    position: relative;
+    padding: 200px 0;
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.67);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  
+}
+
+.section_1--container_title{
+    margin: auto;
+    text-align: center;
+}
+
+#section_1 h1{
+    font-family: MyItalick;
+    color: white;
+    font-size: 100px;
+    font-weight: 500;
+  
+}
+#section_1 h3{
+    font-family: MyItalick;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+  
+}
+
+.button{
+    margin-top: 75px;
+}
+    
+.button a{
+    font-family: My;
+    padding: 21px 51px;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    background-color: #c7f3e9;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.button:hover{
+    
+}
+
+
+/*SECTION 2*/  
+#section_2{
+    background: #f4fdfb;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: My;
+}
+container{
+        margin: auto;
+        max-width: 1170px;  
+}
+
+.section_2--container img{
+    max-width: 570px;
+}
+
+.section_2--container h3{
+    font-size: 35px;
+    color:black;
+} 
+
+.section_2--container p{
+       font-size: 20px;
+} 
+
+/*
+.section_2--container_img{
+    
+ 
+}
+*/
+
+/*SECTION 3*/ 
+#section_3{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: My;
+    position: relative;
+}
+
+.section_3--box{
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.section_3--box_img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+/*    border: 16px solid #79c4b3;*/
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    display: block;
+    margin: auto;
+}
+
+.section_3--box_img img:hover{
+   -webkit-transform: scale(1.1);  
+      -ms-transform: scale(1.1);  
+          transform: scale(1.1);
+ -webkit-box-shadow: 0px 10px 20px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 20px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 20px 1px rgba(0,0,0,0.75);
+}
+.section_3--box_img{
+    margin: auto;
+}
+.section_3--box_txt h4{
+    text-align: center;
+    font-size: 25px;
+}
+
+.section_3--box_txt{
+   margin-top: 30px;
+   text-transform: uppercase;
+    color: #79c4b3;
+}
+
+/*SECTION 4*/ 
+
+#section_4{
+    padding: 80px;
+    position: relative;
+    background-image: url(img/ipS0JyFKOYc.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.video--container{
+    position: relative;
+}
+
+.video{
+    margin: auto;
+}
+
+/*SECTION 5*/ 
+
+#section_5{
+    padding: 80px;
+   background: #f4fdfb;
+        font-family: My;
+}
+
+
+
+/*SECTION 5*/ 
+
+#section_5{
+   padding: 80px;
+   background: #f4fdfb;
+  font-family: My;
+}
+
+/*SECTION 6*/ 
+
+#section_6{
+   padding: 80px;
+
+}
+.section_6--photo{
+
+    background-size: cover;
+    border: 5px solid white;
+    width: 300px;
+    height: 300px;
+}
+
+
+#galary--element_1{
+      background-image: url(img/EYC3y7n-OsU.jpg);
+}
+#galary--element_2{
+      background-image: url(img/2.jpg);
+}
+#galary--element_3{
+      background-image: url(img/3.jpg);
+}
+#galary--element_4{
+      background-image: url(img/4.jpg);
+}
+#galary--element_5{
+      background-image: url(img/5.jpg);
+}
+#galary--element_6{
+      background-image: url(img/6.jpg);
+}
+
+/*SECTION 7*/ 
+#section_7{
+    background-image: url(img/2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    position: relative;
+    padding: 50px 0;
+  
+}
